@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organic Food Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+  
+  <nav class="bg-green-700 text-white shadow-md px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-3">
+   
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Logo" class="w-10">
+      <a href="index.html" class="text-xl font-bold">Organic Food Hub</a>
+    </div>
+
+   
+    <ul class="hidden md:flex gap-6">
+      <li><a href="index.html" class="hover:text-green-200 transition">Home</a></li>
+      <li><a href="shop.html" class="hover:text-green-200 transition">Shop</a></li>
+      <li><a href="farmers.html" class="hover:text-green-200 transition">Farmers</a></li>
+      <li><a href="blog.html" class="hover:text-green-200 transition">Blog & Recipes</a></li>
+      <li><a href="reviews.html" class="hover:text-green-200 transition">Reviews</a></li>
+      <li><a href="orders.html" class="hover:text-green-200 transition">My Orders</a></li>
+      <li><a href="contact.html" class="hover:text-green-200 transition">Contact</a></li>
+    </ul>
+
+   
+    <div class="hidden md:flex items-center gap-3">
+      <a href="login.html" class="px-3 py-1 border border-white rounded hover:bg-white hover:text-green-600 transition">Login</a>
+      <a href="register.html" class="px-3 py-1 bg-white text-green-600 rounded hover:bg-green-100 transition">Register</a>
+    </div>
+
+  
+    <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">&#9776;</button>
+  </nav>
+
+  <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center bg-green-600 text-white w-full py-4 space-y-3">
+    <a href="index.html" class="hover:text-yellow-300">Home</a>
+    <a href="shop.html" class="hover:text-yellow-300">Shop</a>
+    <a href="farmers.html" class="hover:text-yellow-300">Farmers</a>
+    <a href="blog.html" class="hover:text-yellow-300">Blog & Recipes</a>
+    <a href="reviews.html" class="hover:text-yellow-300">Reviews</a>
+    <a href="orders.html" class="hover:text-yellow-300">My Orders</a>
+    <a href="contact.html" class="hover:text-yellow-300">Contact</a>
+    <div class="flex space-x-2 w-full px-4">
+      <a href="login.html" class="flex-1 text-center border border-white rounded hover:bg-white hover:text-green-600 transition">Login</a>
+      <a href="register.html" class="flex-1 text-center bg-white text-green-600 rounded hover:bg-green-100 transition">Register</a>
+    </div>
+  </div>
+
+  <section id="home" class="relative bg-green-50 min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">Fresh. Organic. Healthy.</h1>
+    <p class="text-gray-700 text-lg md:text-xl max-w-3xl mb-10">
+      Discover premium organic produce directly from local farmers. Support sustainable farming while enjoying the best natural flavors.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full mb-16">
+      <div class="bg-gradient-to-br from-green-400 to-green-600 text-white rounded-3xl shadow-2xl p-8 hover:scale-105 transform transition relative overflow-hidden">
+        <div class="absolute -top-5 -right-5 w-24 h-24 bg-yellow-200 rounded-full opacity-30"></div>
+        <h3 class="text-2xl font-semibold mb-3 flex items-center gap-2">🥗 100% Organic</h3>
+        <p class="text-gray-100">All products are certified organic, free from chemicals and pesticides.</p>
+      </div>
+      <div class="bg-gradient-to-br from-yellow-400 to-green-400 text-white rounded-3xl shadow-2xl p-8 hover:scale-105 transform transition relative overflow-hidden">
+        <div class="absolute -bottom-5 -left-5 w-24 h-24 bg-green-200 rounded-full opacity-30"></div>
+        <h3 class="text-2xl font-semibold mb-3 flex items-center gap-2">🚜 Direct from Farmers</h3>
+        <p class="text-gray-100">Fresh produce delivered straight from local farms to your doorstep.</p>
+      </div>
+      <div class="bg-gradient-to-br from-green-600 to-green-800 text-white rounded-3xl shadow-2xl p-8 hover:scale-105 transform transition relative overflow-hidden">
+        <div class="absolute -top-5 -left-5 w-24 h-24 bg-yellow-200 rounded-full opacity-30"></div>
+        <h3 class="text-2xl font-semibold mb-3 flex items-center gap-2">🌱 Eco-Friendly</h3>
+        <p class="text-gray-100">Supporting sustainable practices that protect our environment.</p>
+      </div>
+    </div>
+
+    <a href="shop.html" class="bg-green-700 text-white px-10 py-4 rounded-xl text-lg font-semibold hover:bg-green-800 transition shadow-lg">Shop Now</a>
+  </section>
+
+ 
+<section id="contact" class="bg-green-100 py-16 px-6 relative">
+
+  <div class="absolute -top-10 -left-10 w-32 h-32 bg-yellow-200 rounded-full opacity-20"></div>
+  <div class="absolute -bottom-10 -right-10 w-32 h-32 bg-green-200 rounded-full opacity-20"></div>
+
+  <div class="max-w-4xl mx-auto relative z-10">
+    <h2 class="text-4xl font-bold text-center mb-12">Get in Touch</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+  
+      <div class="bg-green-700 text-white rounded-3xl p-10 shadow-xl relative overflow-hidden">
+        <div class="absolute -top-5 -right-5 w-24 h-24 bg-yellow-200 rounded-full opacity-30"></div>
+        <h3 class="text-2xl font-semibold mb-6">Reach Out</h3>
+        <p class="mb-4">We’d love to hear from you! Whether you have questions, feedback, or just want to say hi, fill out the form and we’ll get back to you promptly.</p>
+        <div class="space-y-4 text-sm">
+          <p>📧 Email: <span class="font-semibold">contact@organicfoodhub.com</span></p>
+          <p>📞 Phone: <span class="font-semibold">+880 123 456 789</span></p>
+          <p>📍 Address: <span class="font-semibold">Dhaka, Bangladesh</span></p>
+        </div>
+      </div>
+
+      
+      <form class="bg-slate-700 p-10 rounded-3xl shadow-2xl space-y-6 relative overflow-hidden">
+   
+        <div class="absolute -top-5 -right-5 w-16 h-16 bg-green-200 rounded-full opacity-30"></div>
+        <div class="absolute -bottom-5 -left-5 w-16 h-16 bg-yellow-200 rounded-full opacity-30"></div>
+
+        <input type="text" placeholder="Your Name" class="w-full border border-gray-300 px-5 py-3 rounded-2xl focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+        <input type="email" placeholder="Your Email" class="w-full border border-gray-300 px-5 py-3 rounded-2xl focus:outline-none focus:ring-2 focus:ring-green-600 transition">
+        <textarea placeholder="Your Message" rows="5" class="w-full border border-gray-300 px-5 py-3 rounded-2xl focus:outline-none focus:ring-2 focus:ring-green-600 transition"></textarea>
+        <button type="submit" class="w-full bg-green-700 text-white py-4 rounded-2xl font-bold hover:bg-green-800 transition shadow-lg">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="bg-green-900 text-white py-10 relative overflow-hidden">
+ 
+  <div class="absolute -top-5 -left-5 w-20 h-20 bg-yellow-300 rounded-full opacity-20"></div>
+  <div class="absolute -bottom-5 -right-5 w-20 h-20 bg-green-700 rounded-full opacity-20"></div>
+
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left relative z-10">
+    
+
+    <div>
+      <h3 class="font-bold text-xl mb-2">Organic Food Hub</h3>
+      <p class="text-gray-300 text-sm">Fresh organic produce delivered from local farms directly to you. Healthy, tasty, and sustainable!</p>
+    </div>
+
+
+    <div>
+      <h3 class="font-bold text-xl mb-2">Quick Links</h3>
+      <ul class="space-y-1 text-sm">
+        <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
+        <li><a href="shop.html" class="hover:text-yellow-400 transition">Shop</a></li>
+        <li><a href="blog.html" class="hover:text-yellow-400 transition">Blog</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-400 transition">Contact</a></li>
+      </ul>
+    </div>
+
+
+    <div>
+      <h3 class="font-bold text-xl mb-2">Follow Us</h3>
+      <div class="flex justify-center md:justify-start gap-3 mb-2">
+   
+        <a href="#" class="hover:text-yellow-400 transition">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-3h2.5V9.5c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12H18l-.5 3h-2v7A10 10 0 0 0 22 12z"/>
+          </svg>
+        </a>
+
+        <a href="#" class="hover:text-yellow-400 transition">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm0 2h10c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3zm5 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm4.5-2a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+        </a>
+
+        <a href="#" class="hover:text-yellow-400 transition">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.37 8.6 8.6 0 0 1-2.72 1.04 4.3 4.3 0 0 0-7.32 3.91 12.2 12.2 0 0 1-8.87-4.5 4.3 4.3 0 0 0 1.33 5.73A4.3 4.3 0 0 1 2 9.7v.05a4.3 4.3 0 0 0 3.44 4.22 4.3 4.3 0 0 1-1.93.07 4.3 4.3 0 0 0 4.01 2.98A8.62 8.62 0 0 1 2 19.54a12.2 12.2 0 0 0 6.62 1.94c7.94 0 12.28-6.57 12.28-12.27 0-.19 0-.37-.01-.56A8.7 8.7 0 0 0 22.46 6z"/>
+          </svg>
+        </a>
+    
+        <a href="#" class="hover:text-yellow-400 transition">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M21.8 8s-.2-1.4-.8-2c-.7-.8-1.5-.8-1.9-.9C16.1 5 12 5 12 5s-4.1 0-7.1.1c-.4 0-1.2.1-1.9.9-.6.6-.8 2-.8 2S2 9.7 2 11.5v1c0 1.8.2 3.5.2 3.5s.2 1.4.8 2c.7.8 1.6.8 2 .9 1.5.1 6.7.1 6.7.1s4.1 0 7.1-.1c.4 0 1.2-.1 1.9-.9.6-.6.8-2 .8-2s.2-1.7.2-3.5v-1c0-1.8-.2-3.5-.2-3.5zM10 15V9l5 3-5 3z"/>
+          </svg>
+        </a>
+      </div>
+      <p class="text-gray-300 text-xs">© 2025 Organic Food Hub. Made with ❤️</p>
+    </div>
+
+  </div>
+</footer>
+
+
+
+  
+  <script>
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+</html>
